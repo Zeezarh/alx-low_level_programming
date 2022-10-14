@@ -5,7 +5,7 @@
  * main - return the last digit of a randomly generated number
  * Return: returns 0(successful)
  */
-=
+
 int main(void)
 {
 	int n;
