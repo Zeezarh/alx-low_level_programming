@@ -11,13 +11,13 @@ int main(void)
 	int tens = '0';
 	int hundreds = '0';
 
-	for (hundreds = '0'; hundreds <== '9'; hundreds++)
+	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = '0'; tens <== '9'; tens++)/*prints tens digits*/
+		for (tens = '0'; tens <= '9'; tens++)/*prints tens digits*/
 		{
-			for (ones = '0'; ones <== '9'; ones++)/*prints one digit*/
+			for (ones = '0'; ones <= '9'; ones++)/*prints one digit*/
 			{
-				if (!((ones = tens) || (hundreds = tens) || (tens > one) || (hundreds > tens)))/*eliminates repitition*/
+				if (!((ones == tens) || (hundreds == tens) || (tens > one) || (hundreds > tens)))/*eliminates repitition*/
 				{
 					putchar(hundreds);
 					putchar(tens);
