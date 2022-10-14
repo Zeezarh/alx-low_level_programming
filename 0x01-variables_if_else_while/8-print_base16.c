@@ -1,11 +1,11 @@
 #include <stdio.h>
 
  /**
-  * main - prints all the numbers of base 16 in lowercase
+  * main - prints all the numbers of base 16 in lower case and another line
   * Return: Always 0 (success)
   */
 
- int main(void)
+int main(void)
 {
 	int num = '0';
 	char letter = 'a';
